@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .report one-word domains fr
 
 **Public extract:** 8,637 rows · **Live catalog:** 5,621,965 domains
 
-**Last updated:** 2026-04-09  
+**Last updated:** 2026-04-10  
 **Canonical page:** `https://unique.domains/domains/tld/report`  
 **Best for:** founders, investors, studios
 
@@ -24,24 +24,18 @@ Daily-updated public extract of available and resale .report one-word domains fr
 
 <p align="center">
   <a href="https://unique.domains/domains/tld/report?utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_open_search"><b>🗂️ Open live database</b></a> ·
-  <a href="https://unique.domains/domains/tld/report?github_intent=radar&utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_create_radar"><b>🔔 Create Radar</b></a> ·
-  <a href="https://unique.domains/domains/tld/report?github_intent=project&utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_start_project"><b>🚀 Start a Project</b></a> ·
   <b>⬇️ Download sample</b>: <a href="./report.csv">CSV</a> / <a href="./report.json">JSON</a>
-</p>
-
-<p align="center">
-  <a href="https://unique.domains/technology?utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_methodology">Methodology</a> ·
-  <a href="https://unique.domains/api?utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_api_docs">API docs</a>
+  · <a href="https://unique.domains/technology?utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_methodology"><b>🧪 Methodology</b></a>
+  · <a href="https://unique.domains/api?utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_api_docs"><b>🧰 API docs</b></a>
 </p>
 
 ---
 
-> This repo is the sample. The live product keeps the exact search context and adds saved workflows, deeper filters, and richer price, demand, and risk context.
+➡️ **Investors:** [Create a Radar from this .REPORT search](https://unique.domains/domains/tld/report?github_intent=radar&utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_create_radar)  
+➡️ **Founders:** [Start a Project from this .REPORT search](https://unique.domains/domains/tld/report?github_intent=project&utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_start_project)  
+➡️ **Builders:** [Connect to our API](https://unique.domains/api?utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_api_docs)
 
-**Choose your next step**
-- **Investors:** [Create a Radar from this exact .REPORT search](https://unique.domains/domains/tld/report?github_intent=radar&utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_create_radar)
-- **Founders:** [Start a Project from this exact .REPORT search](https://unique.domains/domains/tld/report?github_intent=project&utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_start_project)
-- **Researchers / builders:** [Download CSV](./report.csv) or [Download JSON](./report.json)
+---
 
 ## 📦 What this repository contains
 
@@ -57,18 +51,6 @@ This repository is the public extract for Unique Domains' .REPORT one-word domai
 - `CITATION.cff` — machine-readable dataset citation metadata
 - `LICENSE` — terms for the public extract
 
-## Why leave GitHub?
-
-| GitHub extract          | Live product                                     |
-| ----------------------- | ------------------------------------------------ |
-| 8,637-row public sample | 5,621,965 live domains                           |
-| Static CSV / JSON       | live search and daily refresh                    |
-| Basic exported fields   | deeper price, demand, risk, and workflow context |
-| No persistence          | Radar, saved search, and alerts                  |
-| No founder workflow     | Project, shortlist, and next-step workflow       |
-
-If this sample already feels useful, the live product is where the exact search becomes a workflow.
-
 ## 🧭 Quick start
 
 ```python
@@ -82,7 +64,7 @@ print(df.head())
 
 | domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                                 |
 | ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------------------------------------------------- |
-| focus.report     | available | $14.99    | —             | 82             | 44     | 5      | name.com                                                  |
+| focus.report     | available | $14.99    | —             | 82             | 43     | 5      | name.com                                                  |
 | active.report    | resell    | $14.99    | $29.99        | 104            | 32     | 6      | NameCheap, Inc.                                           |
 | athletics.report | premium   | $85.80    | $85.80        | 69             | 52     | 9      | namecheap                                                 |
 | unity.report     | available | $14.99    | $35.99        | 70             | 41     | 5      | name.com                                                  |
@@ -99,15 +81,25 @@ print(df.head())
 | custom.report    | premium   | $123.75   | $123.75       | 110            | 39     | 6      | name.com                                                  |
 | terminal.report  | available | $14.99    | $35.99        | 104            | 36     | 8      | name.com                                                  |
 | email.report     | resell    | —         | —             | 106            | 57     | 6      | Global Domains International, Inc. DBA DomainCostClub.com |
-| manage.report    | premium   | $26       | $26           | 74             | 39     | 6      | namecheap                                                 |
+| about.report     | premium   | $250      | $250          | 94             | 38     | 5      | name.com                                                  |
 | some.report      | available | $14.99    | $35.99        | 80             | 36     | 4      | name.com                                                  |
-| buy.report       | resell    | —         | —             | 106            | 56     | 3      | GoDaddy.com, LLC                                          |
+| local.report     | resell    | —         | —             | 102            | 54     | 5      | GoDaddy.com, LLC                                          |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
 ## 🚀 Next move
 
-You are seeing the public sample. The live product keeps the exact search context and adds saved workflows, deeper filters, and alerting.
+You are seeing the public sample. Unique Domains keeps the exact search context and adds saved workflows, deeper filters, and alerting.
+
+| GitHub extract          | Unique Domains                                   |
+| ----------------------- | ------------------------------------------------ |
+| 8,637-row public sample | 5,621,965 live domains                           |
+| Static CSV / JSON       | live search and daily refresh                    |
+| Basic exported fields   | deeper price, demand, risk, and workflow context |
+| No persistence          | Radar, saved search, and alerts                  |
+| No founder workflow     | Project, shortlist, and next-step workflow       |
+
+If this sample already feels useful, Unique Domains is where the exact search becomes a workflow.
 
 [Create Radar](https://unique.domains/domains/tld/report?github_intent=radar&utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_create_radar) · [Start Project](https://unique.domains/domains/tld/report?github_intent=project&utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=top_start_project) · [See pricing](https://unique.domains/pricing?utm_source=github&utm_medium=referral&utm_campaign=repo_report_oneword_domains&utm_content=related_pricing)
 
@@ -134,7 +126,7 @@ This repository follows the exact public search represented by the canonical pag
 - Counts, prices, and statuses can change over time.
 - Scores are decision-support signals, not guarantees of resale value.
 - Trademark, SEO, and risk signals should be treated as screening inputs, not legal or specialist advice.
-- The live product contains deeper filters, monitoring, and decision workflows than this public extract.
+- Unique Domains contains deeper filters, monitoring, and decision workflows than this public extract.
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -151,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-04-09. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-04-10. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
@@ -166,4 +158,4 @@ GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
 ## 📬 Contact
 
-Questions, corrections, or partnership requests: `hello@unique.domains`
+Questions, corrections, or partnership requests: `gaetan@unique.domains`
