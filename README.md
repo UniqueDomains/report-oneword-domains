@@ -1,22 +1,22 @@
-# Available .REPORT One-Word Domains (5,621,965)
+# Available .REPORT One-Word Domains (8,638)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-8%2C637%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-5%2C621%2C965%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-8%2C640%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-8%2C638%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated public extract of available and resale .report one-word domains from Unique Domains.
+Daily-updated dataset of available and resale .report one-word domains from Unique Domains.
 
-> **Important:** this repository is a **public 8,637-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **5,621,965 domains** on the canonical page below.
+> **Note:** this repository currently mirrors the full live catalog for this exact search.
+> Unique Domains counts can still change as the search refreshes.
 
-**Public extract:** 8,637 rows · **Live catalog:** 5,621,965 domains
+**Public extract:** 8,640 rows · **Live catalog:** 8,638 domains
 
-**Last updated:** 2026-04-10  
+**Last updated:** 2026-04-12  
 **Canonical page:** `https://unique.domains/domains/tld/report`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .REPORT one-word domai
 
 ### Files
 
-- `report.csv` — public CSV extract (8,637 rows)
-- `report.json` — public JSON extract (8,637 rows)
+- `report.csv` — public CSV extract (8,640 rows)
+- `report.json` — public JSON extract (8,640 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -65,25 +65,25 @@ print(df.head())
 | domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                                 |
 | ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------------------------------------------------- |
 | focus.report     | available | $14.99    | —             | 82             | 43     | 5      | name.com                                                  |
-| active.report    | resell    | $14.99    | $29.99        | 104            | 32     | 6      | NameCheap, Inc.                                           |
+| active.report    | resell    | $14.99    | $29.99        | 104            | 30     | 6      | NameCheap, Inc.                                           |
 | athletics.report | premium   | $85.80    | $85.80        | 69             | 52     | 9      | namecheap                                                 |
-| unity.report     | available | $14.99    | $35.99        | 70             | 41     | 5      | name.com                                                  |
-| taiwan.report    | resell    | —         | —             | 66             | 92     | 6      | Dynadot Inc                                               |
+| unity.report     | available | $14.99    | $35.99        | 70             | 40     | 5      | name.com                                                  |
+| taiwan.report    | resell    | —         | —             | 66             | 93     | 6      | Dynadot Inc                                               |
 | star.report      | premium   | $26       | $26           | 86             | 46     | 4      | namecheap                                                 |
 | gather.report    | available | $14.99    | $35.99        | 96             | 38     | 6      | name.com                                                  |
-| outlook.report   | resell    | —         | —             | 95             | 73     | 7      | NameCheap, Inc.                                           |
+| outlook.report   | resell    | —         | —             | 95             | 72     | 7      | NameCheap, Inc.                                           |
 | mark.report      | premium   | $26       | $26           | 66             | 42     | 4      | namecheap                                                 |
 | conscious.report | available | $14.99    | $35.99        | 89             | 38     | 9      | name.com                                                  |
-| web.report       | resell    | —         | —             | 72             | 65     | 3      | Global Domains International, Inc. DBA DomainCostClub.com |
+| home.report      | resell    | —         | —             | 100            | 62     | 4      | GoDaddy.com, LLC                                          |
 | care.report      | premium   | $1,040    | $1,040        | 80             | 40     | 4      | namecheap                                                 |
 | cozy.report      | available | $14.99    | $35.99        | 110            | 37     | 4      | name.com                                                  |
-| home.report      | resell    | —         | —             | 100            | 62     | 4      | GoDaddy.com, LLC                                          |
+| web.report       | resell    | —         | —             | 72             | 61     | 3      | Global Domains International, Inc. DBA DomainCostClub.com |
 | custom.report    | premium   | $123.75   | $123.75       | 110            | 39     | 6      | name.com                                                  |
 | terminal.report  | available | $14.99    | $35.99        | 104            | 36     | 8      | name.com                                                  |
-| email.report     | resell    | —         | —             | 106            | 57     | 6      | Global Domains International, Inc. DBA DomainCostClub.com |
-| about.report     | premium   | $250      | $250          | 94             | 38     | 5      | name.com                                                  |
+| industry.report  | resell    | —         | —             | 72             | 61     | 8      | Porkbun LLC                                               |
+| cool.report      | premium   | $123.75   | $123.75       | 76             | 38     | 4      | name.com                                                  |
 | some.report      | available | $14.99    | $35.99        | 80             | 36     | 4      | name.com                                                  |
-| local.report     | resell    | —         | —             | 102            | 54     | 5      | GoDaddy.com, LLC                                          |
+| email.report     | resell    | —         | —             | 106            | 54     | 6      | Global Domains International, Inc. DBA DomainCostClub.com |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 8,637-row public sample | 5,621,965 live domains                           |
+| 8,640-row public sample | 8,638 live domains                               |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-04-10. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
