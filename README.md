@@ -1,10 +1,10 @@
-# Available .REPORT One-Word Domains (11,111)
+# Available .REPORT One-Word Domains (11,557)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-11%2C111%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-11%2C557%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .report one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **11,111 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **11,557 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 11,111 domains
+**Public extract:** 1,000 rows · **Live catalog:** 11,557 domains
 
-**Last updated:** 2026-04-26  
+**Last updated:** 2026-05-01  
 **Canonical page:** `https://unique.domains/domains/tld/report`  
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain               | status    | ask_price | renewal_price | attractiveness | demand | length | registrar       |
-| -------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------- |
-| shortcuts.report     | available | $14.99    | —             | 48             | 41     | 10     | name.com        |
-| bot.report           | resell    | —         | —             | 80             | 52     | 3      | Dynadot Inc     |
-| travelers.report     | premium   | $118.80   | $118.80       | 58             | 61     | 9      | namesilo        |
-| prompts.report       | available | $14.99    | —             | 54             | 39     | 7      | name.com        |
-| sport.report         | resell    | —         | —             | 70             | 37     | 5      | Porkbun LLC     |
-| cars.report          | premium   | $250      | —             | 66             | 47     | 4      | name.com        |
-| stories.report       | available | $14.99    | —             | 58             | 36     | 7      | name.com        |
-| destination.report   | resell    | —         | —             | 90             | 25     | 11     | Porkbun LLC     |
-| Ryan.report          | premium   | $28       | $28           | 60             | 44     | 4      | namecheap       |
-| payments.report      | available | $14.99    | —             | 58             | 33     | 8      | name.com        |
-| does.report          | resell    | —         | —             | 60             | 15     | 4      | NameCheap, Inc. |
-| intelligence.report  | premium   | $123.75   | —             | 84             | 38     | 12     | name.com        |
-| heroes.report        | available | $14.99    | —             | 68             | 29     | 6      | name.com        |
-| VirginiaBeach.report | resell    | —         | —             | 58             | 9      | 14     | Porkbun LLC     |
-| etc.report           | premium   | $28       | $28           | 58             | 34     | 3      | namecheap       |
-| blocks.report        | available | $14.99    | —             | 53             | 29     | 6      | name.com        |
-| photos.report        | premium   | $123.75   | —             | 54             | 28     | 6      | name.com        |
-| commonground.report  | available | $14.99    | —             | 74             | 28     | 13     | name.com        |
-| Keith.report         | premium   | $28       | $28           | 66             | 25     | 5      | namecheap       |
-| gems.report          | available | $14.99    | —             | 70             | 28     | 4      | name.com        |
+| domain               | status    | ask_price | renewal_price | attractiveness | demand | length | registrar   |
+| -------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------- |
+| stories.report       | available | $14.99    | —             | 58             | 36     | 7      | name.com    |
+| bot.report           | resell    | —         | —             | 80             | 52     | 3      | Dynadot Inc |
+| cars.report          | premium   | $250      | —             | 66             | 47     | 4      | name.com    |
+| payments.report      | available | $14.99    | —             | 58             | 33     | 8      | name.com    |
+| sport.report         | resell    | —         | —             | 70             | 38     | 5      | Porkbun LLC |
+| Ryan.report          | premium   | $28       | $28           | 60             | 44     | 4      | namecheap   |
+| heroes.report        | available | $14.99    | —             | 68             | 29     | 6      | name.com    |
+| destination.report   | resell    | —         | —             | 90             | 25     | 11     | Porkbun LLC |
+| etc.report           | premium   | $28       | $28           | 58             | 34     | 3      | namecheap   |
+| blocks.report        | available | $14.99    | —             | 53             | 29     | 6      | name.com    |
+| VirginiaBeach.report | resell    | —         | —             | 58             | 9      | 14     | Porkbun LLC |
+| photos.report        | premium   | $123.75   | —             | 54             | 28     | 6      | name.com    |
+| commonground.report  | available | $14.99    | —             | 74             | 28     | 13     | name.com    |
+| Keith.report         | premium   | $28       | $28           | 66             | 25     | 5      | namecheap   |
+| gems.report          | available | $14.99    | —             | 70             | 28     | 4      | name.com    |
+| apartments.report    | premium   | $118.80   | $118.80       | 60             | 21     | 10     | namesilo    |
+| gods.report          | available | $14.99    | —             | 72             | 27     | 4      | name.com    |
+| watches.report       | premium   | $82.50    | —             | 84             | 19     | 7      | name.com    |
+| chem.report          | available | $14.99    | —             | 74             | 24     | 4      | name.com    |
+| breakingnews.report  | premium   | $250      | —             | 66             | 19     | 13     | name.com    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 1,000-row public sample | 11,111 live domains                              |
+| 1,000-row public sample | 11,557 live domains                              |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-04-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-05-01. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
