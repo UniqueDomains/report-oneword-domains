@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .report one-word domains fr
 
 **Public extract:** 1,000 rows · **Live catalog:** 11,569 domains · **Median ask:** $20.52 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-15  
+**Last updated:** 2026-05-26  
 **Canonical page:** `https://unique.domains/domains/tld/report`  
 **Best for:** founders, investors, studios
 
@@ -71,7 +71,7 @@ print(df.head())
 | sport.report         | resell    | —         | —             | 70             | 38     | 5      | Porkbun LLC |
 | Ryan.report          | premium   | $28       | $28           | 60             | 44     | 4      | namecheap   |
 | heroes.report        | available | $14.99    | —             | 68             | 29     | 6      | name.com    |
-| destination.report   | resell    | —         | —             | 90             | 25     | 11     | Porkbun LLC |
+| destination.report   | resell    | —         | —             | 90             | 24     | 11     | Porkbun LLC |
 | etc.report           | premium   | $28       | $28           | 58             | 34     | 3      | namecheap   |
 | blocks.report        | available | $14.99    | —             | 53             | 29     | 6      | name.com    |
 | VirginiaBeach.report | resell    | —         | —             | 58             | 9      | 14     | Porkbun LLC |
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-05-15. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-05-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
