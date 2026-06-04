@@ -14,9 +14,9 @@ Daily-updated public extract of available and resale .report one-word domains fr
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **11,569 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 11,569 domains · **Median ask:** $20.52 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 11,569 domains · **Median ask:** $20.85 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-26  
+**Last updated:** 2026-06-04  
 **Canonical page:** `https://unique.domains/domains/tld/report`  
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain               | status    | ask_price | renewal_price | attractiveness | demand | length | registrar   |
-| -------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------- |
-| stories.report       | available | $14.99    | —             | 58             | 36     | 7      | name.com    |
-| bot.report           | resell    | —         | —             | 80             | 58     | 3      | Dynadot Inc |
-| cars.report          | premium   | $250      | —             | 66             | 47     | 4      | name.com    |
-| payments.report      | available | $14.99    | —             | 58             | 33     | 8      | name.com    |
-| sport.report         | resell    | —         | —             | 70             | 38     | 5      | Porkbun LLC |
-| Ryan.report          | premium   | $28       | $28           | 60             | 44     | 4      | namecheap   |
-| heroes.report        | available | $14.99    | —             | 68             | 29     | 6      | name.com    |
-| destination.report   | resell    | —         | —             | 90             | 24     | 11     | Porkbun LLC |
-| etc.report           | premium   | $28       | $28           | 58             | 34     | 3      | namecheap   |
-| blocks.report        | available | $14.99    | —             | 53             | 29     | 6      | name.com    |
-| VirginiaBeach.report | resell    | —         | —             | 58             | 9      | 14     | Porkbun LLC |
-| photos.report        | premium   | $123.75   | —             | 54             | 28     | 6      | name.com    |
-| commonground.report  | available | $14.99    | —             | 74             | 28     | 13     | name.com    |
-| Keith.report         | premium   | $28       | $28           | 66             | 25     | 5      | namecheap   |
-| gems.report          | available | $14.99    | —             | 70             | 28     | 4      | name.com    |
-| apartments.report    | premium   | $118.80   | $118.80       | 60             | 21     | 10     | namesilo    |
-| gods.report          | available | $14.99    | —             | 72             | 27     | 4      | name.com    |
-| watches.report       | premium   | $82.50    | —             | 84             | 19     | 7      | name.com    |
-| chem.report          | available | $14.99    | —             | 74             | 24     | 4      | name.com    |
-| breakingnews.report  | premium   | $250      | —             | 66             | 19     | 13     | name.com    |
+| domain            | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
+| ----------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
+| void.report       | available | $14.99    | —             | 112            | 47     | 4      | name.com          |
+| active.report     | resell    | $14.99    | $29.99        | 104            | 30     | 6      | NameCheap, Inc.   |
+| victor.report     | premium   | $23.60    | $23.60        | 68             | 64     | 6      | namesilo          |
+| warp.report       | available | $14.99    | —             | 90             | 44     | 4      | name.com          |
+| abc.report        | resell    | —         | —             | 102            | 50     | 3      | Porkbun LLC       |
+| here.report       | premium   | $78.54    | $78.54        | 130            | 58     | 4      | namesilo          |
+| unity.report      | available | $14.99    | $35.99        | 70             | 39     | 5      | name.com          |
+| simple.report     | resell    | —         | —             | 128            | 49     | 6      | Sav.com, LLC - 33 |
+| corona.report     | premium   | $23.60    | $23.60        | 80             | 54     | 6      | namesilo          |
+| unit.report       | available | $14.99    | —             | 88             | 37     | 4      | name.com          |
+| bit.report        | resell    | —         | —             | 108            | 44     | 3      | Sav.com, LLC      |
+| fit.report        | premium   | $242      | $242          | 88             | 41     | 3      | namesilo          |
+| artificial.report | available | $14.99    | —             | 68             | 37     | 10     | name.com          |
+| russia.report     | resell    | —         | —             | 80             | 42     | 6      | Spaceship, Inc.   |
+| lit.report        | premium   | $23.60    | $23.60        | 78             | 41     | 3      | namesilo          |
+| know.report       | available | $14.99    | —             | 116            | 36     | 4      | name.com          |
+| daily.report      | resell    | —         | —             | 74             | 38     | 5      | Dynadot Inc       |
+| united.report     | premium   | $23.60    | $23.60        | 74             | 41     | 6      | namesilo          |
+| unlimited.report  | available | $14.99    | —             | 76             | 34     | 9      | name.com          |
+| boston.report     | resell    | —         | —             | 80             | 36     | 6      | Porkbun LLC       |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-05-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-06-04. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
