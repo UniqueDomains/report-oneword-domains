@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .report one-word domains fr
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **11,569 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 11,569 domains · **Median ask:** $20.85 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 11,569 domains · **Median ask:** $20.78 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-06-04  
-**Canonical page:** `https://unique.domains/domains/tld/report`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/report`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .REPORT one-word domai
 
 ### Files
 
-- `report.csv` — public CSV extract (1,000 rows)
-- `report.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `report.csv`, public CSV extract (1,000 rows)
+- `report.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain            | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
-| ----------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
-| void.report       | available | $14.99    | —             | 112            | 47     | 4      | name.com          |
-| active.report     | resell    | $14.99    | $29.99        | 104            | 30     | 6      | NameCheap, Inc.   |
-| victor.report     | premium   | $23.60    | $23.60        | 68             | 64     | 6      | namesilo          |
-| warp.report       | available | $14.99    | —             | 90             | 44     | 4      | name.com          |
-| abc.report        | resell    | —         | —             | 102            | 50     | 3      | Porkbun LLC       |
-| here.report       | premium   | $78.54    | $78.54        | 130            | 58     | 4      | namesilo          |
-| unity.report      | available | $14.99    | $35.99        | 70             | 39     | 5      | name.com          |
-| simple.report     | resell    | —         | —             | 128            | 49     | 6      | Sav.com, LLC - 33 |
-| corona.report     | premium   | $23.60    | $23.60        | 80             | 54     | 6      | namesilo          |
-| unit.report       | available | $14.99    | —             | 88             | 37     | 4      | name.com          |
-| bit.report        | resell    | —         | —             | 108            | 44     | 3      | Sav.com, LLC      |
-| fit.report        | premium   | $242      | $242          | 88             | 41     | 3      | namesilo          |
-| artificial.report | available | $14.99    | —             | 68             | 37     | 10     | name.com          |
-| russia.report     | resell    | —         | —             | 80             | 42     | 6      | Spaceship, Inc.   |
-| lit.report        | premium   | $23.60    | $23.60        | 78             | 41     | 3      | namesilo          |
-| know.report       | available | $14.99    | —             | 116            | 36     | 4      | name.com          |
-| daily.report      | resell    | —         | —             | 74             | 38     | 5      | Dynadot Inc       |
-| united.report     | premium   | $23.60    | $23.60        | 74             | 41     | 6      | namesilo          |
-| unlimited.report  | available | $14.99    | —             | 76             | 34     | 9      | name.com          |
-| boston.report     | resell    | —         | —             | 80             | 36     | 6      | Porkbun LLC       |
+| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                |
+| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------------------------------- |
+| bae.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
+| active.report | resell    | $14.99    | $29.99        | high           | low    | 6      | NameCheap, Inc.                          |
+| ago.report    | premium   | $26       | $26           | medium         | low    | 3      | namecheap                                |
+| ole.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
+| abc.report    | resell    | —         | —             | high           | medium | 3      | Porkbun LLC                              |
+| ale.report    | premium   | $23.60    | $23.60        | medium         | low    | 3      | namesilo                                 |
+| sup.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
+| bit.report    | resell    | —         | —             | high           | medium | 3      | Sav.com, LLC                             |
+| ate.report    | premium   | $23.60    | $23.60        | high           | low    | 3      | namesilo                                 |
+| tks.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
+| spam.report   | resell    | —         | —             | medium         | low    | 4      | Hosting Concepts B.V. d/b/a Registrar.eu |
+| beg.report    | premium   | $23.60    | $23.60        | medium         | low    | 3      | namesilo                                 |
+| UML.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
+| daily.report  | resell    | —         | —             | high           | low    | 5      | Dynadot Inc                              |
+| bro.report    | premium   | $23.60    | $23.60        | medium         | low    | 3      | namesilo                                 |
+| ages.report   | available | $14.99    | —             | medium         | low    | 4      | name.com                                 |
+| shift.report  | resell    | —         | —             | high           | low    | 5      | NameSilo, LLC                            |
+| bye.report    | premium   | $23.60    | $23.60        | high           | low    | 3      | namesilo                                 |
+| also.report   | available | $14.99    | —             | high           | low    | 4      | name.com                                 |
+| boston.report | resell    | —         | —             | high           | low    | 6      | Porkbun LLC                              |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This set is entirely focused on one-word .report domains. That gives it a narrow, purpose-led profile: names here work best when the word pairs naturally with reporting, research, audits, intelligence, publishing, or subject-matter summaries. Strong examples tend to be clear and concrete, such as wealth.report or educational.report, while broader words like courage.report or arctic.report depend more on brand positioning. When comparing these domains, weigh the word first, then the extension fit. A low median ask of 20.52 can make experimentation easier, but the real difference between options is whether the keyword feels credible, memorable, and commercially usable with .report.
+Every domain in this set uses one word before the .report extension, ranging from everyday nouns like bedframe.report to action-based names like turninto.report and getup.report. With 11,569 names and a median ask near $21, this list offers a wide range of pricing and naming styles. When comparing these domains, weigh clarity, spelling ease, and renewal cost against your budget and how you plan to use the name.
 
-- Best fit: words that naturally connect to reporting or analysis
-- Median ask is 20.52, so word quality matters more than entry price
-- Concrete terms often read faster than abstract or unusual words
-- Check renewal cost and trademark exposure before committing
+- 11,569 one-word .report domain names, updated daily
+- Median ask near $21 across the entire selection
+- Includes everyday nouns, verbs, and brandable terms
+- Compare pricing and renewal before you commit to a name
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-06-04. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
