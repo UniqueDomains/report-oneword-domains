@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .report one-word domains fr
 
 **Public extract:** 1,000 rows · **Live catalog:** 24,044 domains · **Median ask:** $14.81 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-09-16
+**Last updated:** 2026-09-18
 **Canonical page:** `https://unique.domains/domains/tld/report`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                |
-| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------------------------------- |
-| ain.report    | available | $10.48    | $34.48        | low            | low    | 3      | namecheap                                |
-| active.report | resell    | $14.99    | $29.99        | high           | low    | 6      | NameCheap, Inc.                          |
-| ago.report    | premium   | $26       | $26           | medium         | low    | 3      | namecheap                                |
-| bae.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
-| abc.report    | resell    | —         | —             | high           | medium | 3      | Porkbun LLC                              |
-| ale.report    | premium   | $23.60    | $23.60        | medium         | low    | 3      | namesilo                                 |
-| cxv.report    | available | $10.48    | $34.48        | low            | low    | 3      | namecheap                                |
-| bit.report    | resell    | —         | —             | high           | medium | 3      | Sav.com, LLC                             |
-| ate.report    | premium   | $23.60    | $23.60        | high           | low    | 3      | namesilo                                 |
-| cxx.report    | available | $10.48    | $34.48        | low            | low    | 3      | namecheap                                |
-| spam.report   | resell    | —         | —             | medium         | low    | 4      | Hosting Concepts B.V. d/b/a Registrar.eu |
-| beg.report    | premium   | $23.60    | $23.60        | medium         | low    | 3      | namesilo                                 |
-| ole.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
-| daily.report  | resell    | —         | —             | high           | low    | 5      | Dynadot Inc                              |
-| bro.report    | premium   | $23.60    | $23.60        | medium         | low    | 3      | namesilo                                 |
-| sup.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
-| shift.report  | resell    | —         | —             | high           | low    | 5      | NameSilo, LLC                            |
-| bye.report    | premium   | $23.60    | $23.60        | high           | low    | 3      | namesilo                                 |
-| tks.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
-| boston.report | resell    | —         | —             | high           | low    | 6      | Porkbun LLC                              |
+| domain         | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                |
+| -------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------------------------------- |
+| here.report    | premium   | $78.54    | $78.54        | high           | medium | 4      | namesilo                                 |
+| off.report     | premium   | $23.60    | $23.60        | high           | low    | 3      | namesilo                                 |
+| wrong.report   | available | $14.99    | —             | high           | low    | 5      | name.com                                 |
+| YouTube.report | available | —         | —             | high           | medium | 7      | —                                        |
+| smooth.report  | available | $14.99    | —             | high           | low    | 6      | name.com                                 |
+| ain.report     | available | $10.48    | $34.48        | low            | low    | 3      | namecheap                                |
+| active.report  | resell    | $14.99    | $29.99        | high           | low    | 6      | NameCheap, Inc.                          |
+| ago.report     | premium   | $26       | $26           | medium         | low    | 3      | namecheap                                |
+| bae.report     | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
+| abc.report     | resell    | —         | —             | high           | medium | 3      | Porkbun LLC                              |
+| ale.report     | premium   | $23.60    | $23.60        | medium         | low    | 3      | namesilo                                 |
+| cxv.report     | available | $10.48    | $34.48        | low            | low    | 3      | namecheap                                |
+| bit.report     | resell    | —         | —             | high           | medium | 3      | Sav.com, LLC                             |
+| ate.report     | premium   | $23.60    | $23.60        | high           | low    | 3      | namesilo                                 |
+| cxx.report     | available | $10.48    | $34.48        | low            | low    | 3      | namecheap                                |
+| spam.report    | resell    | —         | —             | medium         | low    | 4      | Hosting Concepts B.V. d/b/a Registrar.eu |
+| beg.report     | premium   | $23.60    | $23.60        | medium         | low    | 3      | namesilo                                 |
+| ole.report     | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
+| daily.report   | resell    | —         | —             | high           | low    | 5      | Dynadot Inc                              |
+| bro.report     | premium   | $23.60    | $23.60        | medium         | low    | 3      | namesilo                                 |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-09-16. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-09-18. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
