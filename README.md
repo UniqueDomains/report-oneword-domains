@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .report one-word domains fr
 
 **Public extract:** 1,000 rows · **Live catalog:** 30,268 domains · **Median ask:** $13.89 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-09-23
+**Last updated:** 2026-09-24
 **Canonical page:** `https://unique.domains/domains/tld/report`
 **Best for:** founders, investors, studios
 
@@ -64,6 +64,7 @@ print(df.head())
 
 | domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                |
 | ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------------------------------- |
+| here.report   | premium   | $78.54    | $78.54        | high           | medium | 4      | namesilo                                 |
 | ain.report    | available | $10.48    | $34.48        | low            | low    | 3      | namecheap                                |
 | active.report | resell    | $14.99    | $29.99        | medium         | low    | 6      | NameCheap, Inc.                          |
 | ago.report    | premium   | $23.60    | $23.60        | low            | low    | 3      | namesilo                                 |
@@ -80,10 +81,9 @@ print(df.head())
 | spam.report   | resell    | —         | —             | medium         | low    | 4      | Hosting Concepts B.V. d/b/a Registrar.eu |
 | bro.report    | premium   | $23.60    | $23.60        | medium         | low    | 3      | namesilo                                 |
 | sup.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
-| daily.report  | resell    | —         | —             | high           | low    | 5      | Dynadot Inc                              |
+| daily.report  | resell    | —         | —             | medium         | low    | 5      | Dynadot Inc                              |
 | bye.report    | premium   | $23.60    | $23.60        | high           | low    | 3      | namesilo                                 |
 | tks.report    | available | $14.99    | —             | high           | low    | 3      | name.com                                 |
-| shift.report  | resell    | —         | —             | high           | low    | 5      | NameSilo, LLC                            |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-09-23. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .REPORT One-Word Domains*. Version 2026-09-24. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
